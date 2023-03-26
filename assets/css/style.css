@@ -8,7 +8,7 @@ body {
     font-size: 25px;
     display: flex;
     gap: 65px;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 10px;
     padding-right: 60px;
     cursor: pointer;
@@ -25,7 +25,7 @@ body {
     padding: 0 34px;
 } 
 .name {
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ body {
 .web {
     font-size: 37px;
     margin: 0;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
 .col-45 {
@@ -83,7 +83,7 @@ img {
     /* align-items: center; */
     text-align: center;
     font-size: 21px;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .col-50 {
     display: flex;
@@ -100,7 +100,7 @@ img {
     left: 21px;
     position: absolute;
     font-size: 19px;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 1px;
 }
 .container-intro {
@@ -112,7 +112,7 @@ img {
     margin-top: 0px;
     font-size: 60px;
     text-align: center;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #437FC7;
     color: white;
 }
@@ -223,6 +223,7 @@ img {
 }
 .iconsContainer .icons .bi.bi:hover {
     background-position: right;
+    cursor: pointer;
 }
 
 .carousel {
