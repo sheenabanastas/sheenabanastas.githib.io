@@ -1,6 +1,8 @@
 body {
-    margin: 0;
-    
+    margin: 0; 
+    background-image: url('../img/background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .navigation {
     background-color: whitesmoke;
@@ -15,7 +17,6 @@ body {
     cursor: pointer;
 }
 .col-nav a {
-    color: gray;
 }
 .col-nav a:hover {
     color: #3266a8;
@@ -31,6 +32,7 @@ body {
 .name {
     font-family: cursive;
     font-size: 36px;
+    text-align: center;
 }
 .intro {
     display: flex;
@@ -42,6 +44,7 @@ body {
     font-size: 37px;
     margin: 0;
     font-family: cursive;
+    text-align: center;
 }
 .col-45 {
     width: 45%;
@@ -135,6 +138,7 @@ img {
 .about-me {
     margin-bottom: 0;
 }
+
 .contact-btn {
     width: 30%;
     height: 50px;
@@ -172,7 +176,7 @@ img {
     text-decoration: none;
 }
 .nav_logo:hover {
-    color: #3266a8;  
+    color: blue;  
 }
 .lines {
     width: 100%;
@@ -239,4 +243,18 @@ img {
 }
 .iconsContainer .icons .bi.bi:hover {
     background-position: right;
+}
+
+.carousel {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.footer {
+    margin: 30px 0 !important;
+}
+
+.button-text {
+    margin: 0;
+    padding: 15px;
 }
