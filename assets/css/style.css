@@ -1,8 +1,5 @@
 body {
     margin: 0; 
-    /* background-image: url('../img/background1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;  */
 }
 .navigation {
     background-color: whitesmoke;
@@ -15,8 +12,6 @@ body {
     padding: 10px;
     padding-right: 60px;
     cursor: pointer;
-}
-.col-nav a {
 }
 .col-nav a:hover {
     color: #3266a8;
@@ -108,14 +103,6 @@ img {
     font-family: cursive;
     letter-spacing: 1px;
 }
-.qualification {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 150px;
-    margin-right: 70px;
-    margin-left: 0;
-}
 .container-intro {
     width: 100%;
     margin: auto;
@@ -170,13 +157,6 @@ img {
     display: flex;
     gap: 45px;
     justify-content: right;
-}
-.nav_logo {
-    color:  gray;
-    text-decoration: none;
-}
-.nav_logo:hover {
-    color: blue;  
 }
 .lines {
     width: 100%;
@@ -257,4 +237,15 @@ img {
 .button-text {
     margin: 0;
     padding: 15px;
+}
+.img-home {
+    justify-content: center;
+    display: flex;
+}
+.form {
+    padding-top: 10px;
+}
+.bi {
+    font-size: 35px;
+    margin: 0 5px;
 }
